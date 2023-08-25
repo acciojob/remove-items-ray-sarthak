@@ -6,7 +6,7 @@ const arr=color.children;
 button.addEventListener("click",deleteit);
  function deleteit(){
 	 let inputed=color.value;
-	console.log(inputed);
+	
 	 for(let i=0;i<arr.length;i++){
 		 if(arr[i].value===inputed){
 			 color.removeChild(arr[i]);
